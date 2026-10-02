@@ -1,0 +1,28 @@
+CAMERA_INDEX = 0
+
+CONFIDENCE_THRESHOLD = 0.50
+
+TARGET_OBJECTS = {
+    "person",
+    "car",
+    "bus",
+    "truck",
+    "bicycle",
+    "motorcycle",
+    "cell phone"
+}
+
+VOICE_RATE = 1
+
+HEIGHT_CLOSE = 200
+HEIGHT_VERY_CLOSE = 350
+
+HEIGHT_HISTORY_SIZE = 8
+
+MAX_MISSING_FRAMES = 15
+
+SAFE_DISTANCE = 2.0
+WARNING_DISTANCE = 1.0
+DANGER_DISTANCE = 0.5
+
+SIMULATE_DISTANCE = True
